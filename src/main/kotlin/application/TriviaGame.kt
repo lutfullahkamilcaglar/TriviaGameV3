@@ -16,6 +16,7 @@ class TriviaGame : KoinComponent {
     private val inputManager by inject<InputManager>()
     private val reducer by inject<Reducer>()
 
+    /// TODO: 07/06/2022 add while loop for categories.
 
     fun startApplication() {
         categories.forEachIndexed { index, category ->
